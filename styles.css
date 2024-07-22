@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+.Post {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    margin: 0 auto;
+}
+.Post-header {
+    height:10%;
+    width:100%;
+    display: flex;
+    border: 1px solid black;
+
+}
+.Icon-Header {
+    margin: 25px 0px 0px 15px;
+}
+
+.Options{ 
+    padding: 25px 0px 0px 400px;
+}
+.text1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-inline-start: 10px;
+    width: 10px ;
+}
+
+.Post-Image {
+    height:60%;
+    width:100%;
+    background-image: url(https://s3.travel-cdn.net/pictures/336275/raw.jpg?rev=1);
+    background-position: center;
+    background-size: cover;
+}
+
+.Post-Icons {
+    margin-top: 20px;
+    display: flex;  
+}
+
+.Heart{
+    margin-inline-start: 10px;
+}
+.Comments {
+    margin-inline: 10px;
+}
+
+.Keep {
+   margin-left: 320px;
+}
+
+.Likes{
+margin-left: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Post-Text{
+margin: 0px 10px 0px 10px;
+}
